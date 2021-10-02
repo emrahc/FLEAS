@@ -1,0 +1,20 @@
+export const API_URL = "https://api.face2yourself.com/api";
+//API End Points
+export const REGISTER = `${API_URL}/account/register/`;
+export const LOGIN = `${API_URL}/account/login/`;
+export const UPDATE_PROFILE = `${API_URL}/user/`;
+export const USER = `${API_URL}/account/user/`;
+export const DELETE = `${API_URL}/account/delete/`;
+export const LOGOUT = `${API_URL}/account/logout/`;
+export const CHANGE_PASSWORD = `${API_URL}/account/password/change/`;
+export const RESET_PASSWORD = `${API_URL}/account/password/reset/`;
+export const VERIFY = `${API_URL}/account/password/reset/confirm/`;
+export const UPLOAD_IMAGE = `${API_URL}/photos/`;
+export const GET_IMAGES = `${API_URL}/photos/`;
+export const SEND_RATING = `${API_URL}/photos/`;
+export const PHOTO_COUNT = `${API_URL}/photos/count/`;
+export const FORGOT_PASSWORD = `${API_URL}/auth/recover/`;
+export const DESC = `${API_URL}/config/?language=`;
+export const FACEBOOK = `${API_URL}/account/social/facebook/`;
+export const GOOGLE = `${API_URL}/account/social/google/`;
+export const APPLE = `${API_URL}/account/social/apple/`;

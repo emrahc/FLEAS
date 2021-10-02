@@ -1,0 +1,16 @@
+export { default as WelcomeScreen } from "./Welcome/WelcomeScreen";
+export { default as Login } from "./Login";
+export { default as SignUp } from "./Signup";
+export { default as Info } from "./Info";
+export { default as TakePhoto } from "./TakePhoto";
+export { default as Instructions } from "./Instructions";
+export { default as CameraComponent } from "./Camera";
+export { default as AnalysisScreen } from "./AnalysisScreen";
+export { default as Profile } from "./Profile";
+export { default as Result } from "./Result";
+export { default as PhotoAnalyzing } from "./PhotoAnalyzing";
+export { default as Settings } from "./Settings";
+export { default as ProfileEdit } from "./ProfileEdit";
+export { default as ChangePassword } from "./ChangePassword";
+export { default as ForgotPassword } from "./ForgotPassword";
+export { default as ResetPassword } from "./Authenticate";

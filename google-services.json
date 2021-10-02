@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1051964475614",
+    "project_id": "face2yourself-958c5",
+    "storage_bucket": "face2yourself-958c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051964475614:android:d1075a91947ada14dd1a4f",
+        "android_client_info": {
+          "package_name": "com.face2yourself.faceyourself"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051964475614-50oeldc5crvff4t9rkknu6ao62kotkvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRmORqyxEzDXQXgT7i8sL_9QU7gm9lIm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051964475614-50oeldc5crvff4t9rkknu6ao62kotkvs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1051964475614-46df8i2ioln78l3f73ledajphsbvoq7r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.face2yourself.faceyourself"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
