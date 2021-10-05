@@ -16,11 +16,11 @@ import { init } from "./utils/Lan";
 import { Platform } from "react-native";
 import Constants from "expo-constants";
 import { themeInit } from "./components/ui/ThemeInit";
+import Purchases from "react-native-purchases";
 const fonts = {
   "sf-pro-bold": require("./assets/fonts/SF-Pro-Display-Bold.otf"),
   "sf-pro-semibold": require("./assets/fonts/SF-Pro-Display-Semibold.otf"),
 };
-
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowAlert: true,
@@ -80,6 +80,15 @@ const langHandler = async () => {
   }
 };
 export default function App() {
+  useEffect(() => {
+    Purchases.setDebugLogsEnabled(true);
+    Purchases.setup("GpliflhFejrHYhFSuqhxHKQsltnayZqb");
+    Purchases.getOfferings()
+      .then((e) => {
+        console.log(e, "PURCH");
+      })
+      .catch((e) => console.log(e, "ERROR"));
+  });
   // const notificationListener = useRef<any>();
   // const responseListener = useRef<any>();
   langHandler();
