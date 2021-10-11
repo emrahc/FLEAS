@@ -12,10 +12,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
-    "facebookScheme": "fb753454208691814",
-    "facebookAppId": "753454208691814",
-    "facebookDisplayName": "F2Yourself-App",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,25 +20,17 @@
       "buildNumber": "0.0.3",
       "bundleIdentifier": "com.facelordai.facelord",
       "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist",
       "usesAppleSignIn": true,
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true,
         "NSCameraUsageDescription": "This app uses the camera for personality analysis with facial features.",
         "NSPhotoLibraryUsageDescription": "This app uses the camera roll for personality analysis with facial features."
-      },
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-5640507925808732~5515067826",
-        "googleSignIn": {
-          "reservedClientId": "com.googleusercontent.apps.1051964475614-46df8i2ioln78l3f73ledajphsbvoq7r"
-        }
       }
     },
     "android": {
       "versionCode": 1,
 
       "useNextNotificationsApi": true,
-      "googleServicesFile": "./google-services.json",
       "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", ""]
     },
     "description": "Analyze your character with AI"
