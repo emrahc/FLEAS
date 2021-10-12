@@ -82,7 +82,10 @@ const langHandler = async () => {
 export default function App() {
   useEffect(() => {
     Purchases.setDebugLogsEnabled(true);
-    Purchases.setup("GpliflhFejrHYhFSuqhxHKQsltnayZqb");
+    Purchases.setup("UnNQYIghppdApcDFslwZBdzvqawydsyM");
+    Purchases.getAppUserID()
+      .then((e) => console.log(e, "PURCHASER"))
+      .catch((e) => console.log(e));
     Purchases.getOfferings()
       .then((e) => {
         console.log(e, "PURCH");
