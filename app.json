@@ -18,7 +18,7 @@
     "assetBundlePatterns": ["assets/**/*"],
     "ios": {
       "buildNumber": "0.0.3",
-      "bundleIdentifier": "com.facelordai.facelord",
+      "bundleIdentifier": "com.facelord.flord",
       "supportsTablet": true,
       "usesAppleSignIn": true,
       "infoPlist": {
