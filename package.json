@@ -14,7 +14,6 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@expo/ngrok": "expo/ngrok",
     "@expo/react-native-action-sheet": "^3.8.0",
     "@expo/vector-icons": "^12.0.0",
     "@gorhom/bottom-sheet": "^3.6.5",
@@ -97,7 +96,6 @@
     "react-native-responsive-fontsize": "^0.4.3",
     "react-native-responsive-screen": "^1.4.1",
     "react-native-safe-area-context": "3.2.0",
-    "react-native-safe-area-view": "^1.1.1",
     "react-native-screens": "~3.4.0",
     "react-native-social-buttons": "^1.2.0",
     "react-native-star-rating": "^1.1.0",
@@ -105,7 +103,6 @@
     "react-native-swiper": "^1.6.0-rc.3",
     "react-native-toast-message": "^1.4.2",
     "react-native-ui-lib": "^5.27.0",
-    "react-native-unimodules": "0.14.10",
     "react-native-view-shot": "3.1.2",
     "react-native-web": "~0.13.12",
     "react-redux": "^7.2.5",
@@ -113,7 +110,6 @@
     "recompose": "^0.30.0",
     "sentry-expo": "^4.0.0",
     "styled-components": "^5.2.0",
-    "yarn": "^1.22.10",
     "yup": "^0.29.3"
   },
   "devDependencies": {
